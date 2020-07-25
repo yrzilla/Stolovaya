@@ -2,6 +2,10 @@
     &__top {
         background-color: #34a853;
     }
+    &__search {
+        background-color: #e7e6e6;
+        height: 64px;
+    }
 }
 .menu {
     height: 48px;
@@ -65,4 +69,5 @@
         color:#fff;
         text-decoration: none;
     }
+
 }
