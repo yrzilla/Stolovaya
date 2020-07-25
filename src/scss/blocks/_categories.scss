@@ -1,0 +1,28 @@
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    box-shadow: 4px 6px 18px rgba(0, 0, 0, 0.11);
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__image {
+        display: block;
+        margin-bottom: 7px;
+    }
+    &__item{
+        text-align: center;
+    }
+    &__item a{
+        display: block;
+        color: #373737;
+        font-size: 16px;
+    }
+    &__item a:hover{
+        text-decoration: none;
+    }
+}
+

@@ -10,10 +10,17 @@
 .container {
     max-width: 1550px;
     margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
 }
 
 
 @import 'blocks/header';
 @import 'blocks/buttons';
+@import 'blocks/search-panel';
+@import 'blocks/categories';
 
 

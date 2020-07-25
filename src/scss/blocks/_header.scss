@@ -4,7 +4,9 @@
     }
     &__search {
         background-color: #e7e6e6;
-        height: 64px;
+    }
+    &__categories {
+        background-color: #fff;
     }
 }
 .menu {
@@ -69,5 +71,4 @@
         color:#fff;
         text-decoration: none;
     }
-
 }
