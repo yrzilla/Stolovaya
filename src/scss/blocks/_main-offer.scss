@@ -1,0 +1,103 @@
+.main-offer {
+    margin-top: 20px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        padding: 30px 37px 10px 26px;
+        color: #faad3d;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    &__menu {
+        width: 303px;
+        height: 476px;
+        background-color: #ffffff;
+    }
+    &__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    &__item {
+        position: relative;
+        height: 45px;
+        border-bottom: 1px solid #ededed;
+    }
+    &__link {
+        display: block;
+        padding-left:27px;
+        color: #333333;
+        font-size: 16px;
+        line-height: 45px;
+        font-weight: 400;
+    }
+    &__link::after {
+        content:">";
+        position: absolute;
+        right: 21px;
+        display: block;
+        top: 0;
+        color: #cecece;
+    }
+    &__link:hover {
+        color: #faad3d;
+        text-decoration: none;
+    }
+    &__swiper {
+        width: 902px;
+        height: 476px;
+        background-color: #282828;
+    }
+    &__sale {
+        width: 300px;
+        height: 476px;
+        border-radius: 2px;
+        border: 2px solid #faad3d;
+        background-color: #ffffff;
+    }
+    &__content {
+        padding: 30px;
+        img {
+            margin-bottom: 18px;
+        }
+    }
+    &__suptitle {
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 300;
+        color: #191919;
+        margin-bottom: 10px;
+    }
+    &__descr {
+        font-size: 40px;
+        line-height: 38px;
+        font-weight: 400;
+        margin-bottom: 24px;
+    }
+    &__catalog {
+        font-size: 16px;
+        color: #faad3d;
+        font-weight: 300;
+    }
+    &__catalog:hover {
+        text-decoration: none;
+        color: #faad3d;
+    }
+    &__catalog::after {
+        content:">";
+        position: absolute;
+        right: 70px;
+        display: block;
+        bottom: 30px;
+        color: #faad3d;
+    }
+    &__sale {
+        position: relative;
+    }
+    &__content {
+        position: absolute;
+        bottom: 20px;
+    }
+}
