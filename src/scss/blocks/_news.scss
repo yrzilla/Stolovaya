@@ -1,0 +1,82 @@
+.title {
+    color: #191919;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 49px;
+}
+.news {
+    &__content {
+        display: flex;
+    }
+    &__left {
+        max-width: 490px;
+        margin-right: 105px;
+        img {
+            display: block;
+            margin-bottom: 28px;
+        }
+    }
+    &__data {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 18px;
+        line-height: 16px;
+    }
+    &__brand {
+        color: #34a853;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    &__date {
+        color: #777777;
+        font-weight: 300;
+    }
+    &__title {
+        font-size: 24px;
+        font-weight: 400;
+        color: #191919;
+        line-height: 24px;
+    }
+    &__title:hover {
+        text-decoration: none;
+        color: #191919;
+    }
+    &__text {
+        margin-top: 10px;
+        color: #191919;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+    &__btn {
+        display: block;
+        width: 167px;
+        height: 35px;
+        border-radius: 17px;
+        border: 2px solid #000;
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        transition: .2s;
+    }
+    &__btn:hover {
+        color: #000;
+        background-color: #faad3d;
+        border-color: #faad3d;
+        text-decoration: none;
+    }
+
+    &__item {
+        display: flex;
+        margin-bottom: 43px;
+        img {
+            display: block;
+            max-width: 190px;
+            width: 100%;
+            margin-right: 20px;
+            height: 168px;
+        }
+    }
+}
