@@ -1,0 +1,35 @@
+.clients {
+    padding-bottom: 195px;
+    &__list {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-top: 70px;
+        padding: 0;
+    }
+    &__item {
+        width: 15%;
+        margin-bottom: 55px;
+        img {
+            display: block;
+            margin: 0 auto 18px auto;
+            filter: brightness(0) opacity(0.3) drop-shadow(0 0 0 rgb(21, 43, 63));
+            transition: filter 0.3s ease-in-out;
+            cursor: pointer;
+        }
+        img:hover {
+            filter: none;
+        }   
+            
+    }
+    &__descr {
+        width: 196px;
+        color: #373737;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        margin: 0 auto;
+    }
+}

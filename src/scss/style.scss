@@ -20,6 +20,30 @@ body {
 a {
     text-decoration: none;
 }
+a:hover {
+    text-decoration: none;
+}
+
+.title {
+    color: #191919;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 49px;
+    &_center {
+        text-align: center;
+        line-height: 40px;
+        margin-bottom: 18px;
+    }
+}
+.subtitle {
+    color: #777777;
+    font-size: 16px;
+    font-weight: 300;
+    width: 660px;
+    text-align: center;
+    margin: 0 auto 65px auto;
+    line-height: 20px;
+}
 
 
 @import 'blocks/header';
@@ -30,5 +54,10 @@ a {
 @import 'blocks/main-brands';
 @import 'blocks/main-special';
 @import 'blocks/news';
+@import 'blocks/recomend';
+@import 'blocks/about';
+@import 'blocks/clients';
+@import 'blocks/footer';
+@import 'blocks/contacts';
 
 
