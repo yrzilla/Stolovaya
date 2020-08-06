@@ -44,17 +44,56 @@
                         <li class="menu__item">
                             <a class="menu__link" href="#">Контакты</a>
                         </li>
-                        <li class="menu__item">
+                        <li class="menu__item menu__item_mail">
                             <a class="menu__link" href="#">
                                 <img src="icons/header/mail.svg" alt="mail">
                                 <span>info@stolovay.ru</span>
                             </a>
+                            <ul>
+                                <li class="mail-copy">Скопировать</li>
+                            </ul>
                         </li>
-                        <li class="menu__item">
+                        <li class="menu__item menu__item_tel">
                             <a class="menu__link" href="#">
                                 <img src="icons/header/phone.svg" alt="mail">
                                 <span>8 495 790-72-05</span>
                             </a>
+                            <div class="menu__form">
+                                <div class="menu__form__left">
+                                    <a class="menu__form__tel" href="tel:+74957907205">8 495 790-72-05</a>
+                                    <div class="menu__form__text">Мы принимаем звонки без выходных.</div>
+                                    <span>Выберите способ связи:</span>
+                                    <div class="method">
+                                        <a href="#" class="mobile">
+                                            <img src="icons/methods/mobile.svg" alt="mobile">
+                                            <div>Мобильный</div>
+                                        </a>
+                                        <a href="#" class="mobile">
+                                            <img src="icons/methods/viber.svg" alt="viber">
+                                            <div>Viber</div>
+                                        </a>
+                                        <a href="#" class="mobile">
+                                            <img src="icons/methods/telegram.svg" alt="telegram">
+                                            <div>Telegram</div>
+                                        </a>
+                                        <a href="#" class="mobile">
+                                            <img src="icons/methods/whatsapp.svg" alt="whatsapp">
+                                            <div>Whatsapp</div>
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                                <div class="menu__form__right">
+                                    <form action="" class="form">
+                                        <div class="menu__form__title">Обратный звонок:</div>
+                                        <div class="menu__form__text">Мы перезвоним вам в течении часа</div>
+                                        <input class="form__input" type="name" placeholder="Имя">
+                                        <input class="form__input" type="text" placeholder="Телефон">
+                                        <button type="submit" class="form__btn">Отправить</button>
+                                    </form>
+                                </div>
+                                <div class="menu__form__close"></div>
+                            </div>
                         </li>
                     </ul>
                 </nav>  
@@ -195,6 +234,7 @@
             </div>
         </div>
     </header>
+    <div class="overlay"></div>
     <section class="main-offer">
         <div class="container">
             <div class="main-offer__wrapper">
@@ -362,6 +402,7 @@
             <a class="news__btn" href="#">Все новости</a>
         </div>
     </section>
+    <!-- Необходимы исправления -->
     <section class="recomend">
         <div class="container">
             <div class="title title_center">Рекомендуем</div>
